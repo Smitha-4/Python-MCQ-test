@@ -1,6 +1,6 @@
 const STORE = {
  questions: {
-  accessibility: [
+  Fundamentals: [
    {
     question: "Is Python case sensitive when dealing with identifiers?",
     code: ``,
@@ -59,7 +59,7 @@ while True:
     correctAnswer: "unlimited length"
    }
   ],
-  arrays: [
+  Lists: [
    {
     question: "Which method would we use to return the value 4?",
     code: `let arr = [2,4,6,8,10]`,
@@ -116,7 +116,7 @@ while True:
     correctAnswer: "4"
    }
   ],
-  elements: [
+  Maths: [
    {
     question: "What are the values of the following Python expressions?",
     code: `2**(3**2)
@@ -176,7 +176,7 @@ list(filter(bool, l))`,
     correctAnswer: "Class"
    }
   ],
-  flexbox: [
+  Loops: [
    {
     question: "What will be the output of the following Python expression if x=56.236?",
     code: `print("%.2f"%x)`,
@@ -235,7 +235,7 @@ for i in x:
     correctAnswer: "ABC. def"
    }
   ],
-  forms: [
+  set: [
    {
     question: "Which of the following statements is used to create an empty set in Python",
     code: ``,
@@ -265,7 +265,7 @@ result.extend(i for i in list3 if i not in (list1+list2) and i not in result)`,
    },
   ],
     
-  conditionals: [
+  loops: [
    {
     question: "What will be the output of the following Python code?",
     code: `i = 0
