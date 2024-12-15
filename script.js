@@ -1038,11 +1038,4 @@ $(function () {
     $('.quit-quiz').on('click', function () {
         killQuiz();
     })
-<<<<<<< HEAD
-=======
-})
-	$('.quit-quiz').on('click', function(){
-		killQuiz();
-	})
->>>>>>> f728f6e9c926a413d50e8877b3718d052d192e0b
 })
